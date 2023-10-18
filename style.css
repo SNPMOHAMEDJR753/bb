@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:url(https://i.imgur.com/2lMlfas.png);
+}
+#container {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+#logo {
+    background-color: #988163;
+}
+#logo img {
+    padding: 7px 0 4px 15px;
+}
+#logo .search{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 17px;
+    margin-top: 10px;
+    
+}
+#logo .search p{
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+}
+#logo .search input{
+    width:230px;
+    height:30px; ;
+    border:2px solid #b59977 ;
+    border-radius:15px ;
+    padding-left: 5px;
+}
+#logo .icon i{
+    color: #95866f;
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    font-size: 22px;
+    font-weight: 100;
+}
+#logo .icon i:hover{
+    cursor: pointer;
+}
+
+
+
+#nav ul{
+    list-style-type: none;
+    line-height: 50px;
+}
+#nav ul li{
+    display: inline-block;
+    color: #72634c;
+    padding:0 18px 0 18px;
+    font-size: 12pt;
+    background-image:url(https://i.imgur.com/ihjxNVQ.png);
+    background-size:auto ;
+    background-repeat: no-repeat;
+    background-position: 14px top;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function:ease-in;
+    box-shadow: 3px 1px 4px 0.5px black;
+
+}
+#nav ul li:hover {
+    background-color: #72634c;
+    color: white;
+    cursor: pointer;
+    background-position: 110px top;
+}
+
+
+
+#images2 {
+    margin-top:20px;
+    margin-left: 15px;
+}
+
+
+
+#rooms {
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+}
+#rooms .room{
+    display: inline-block;
+    padding-right: 27px;
+    width: 30%;
+}
+#rooms h1 {
+    color: #cf8024;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:sans-serif;
+    margin: 8px 0 8px 0;
+}
+#rooms h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#rooms p{
+    color: #5b5957;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#rooms button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color:cadetblue;
+    border: none; 
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    font-family: serif;
+    background-image: url(https://i.imgur.com/RUhXeQR.png);
+    background-size:auto 65%;
+    background-repeat: no-repeat;
+    background-position: -40px center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function:ease-in;
+}
+#rooms button:hover{
+    background-position:90% center;
+    padding-right: 40px;
+    width: 145px;
+}
+#rooms a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#footer {
+    background-color: #988163;
+}
+#footer .lists{
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+#footer .lists ul{
+    list-style-type: none;
+    padding: 15px;
+    
+}
+#footer .lists ul li{
+    color: #afa391;
+    padding: 2px;
+}
+#footer .lists ul li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#footer .lists h3{ 
+    color: white;
+    padding: 15px;
+    font-weight: 100;
+}
+#footer .lists p{color: white;
+    padding-left:15px;
+    font-weight: 100
+}
+#footer .search{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 17px;
+    margin-top: 20px;
+}
+#footer .search p{
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+}
+#footer .search input{
+    width:230px;
+    height:30px; ;
+    border:2px solid #b59977 ;
+    border-radius:15px ;
+    padding-left:5px;
+}
+#footer .icon i{
+    color: #95866f;
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    font-size: 22px;
+    font-weight: 100;
+}
+#footer .icon i:hover{
+    cursor: pointer;
+}
+#footer .search button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 6px;
+    font-size: 15px;
+    background-color:#566bb5;
+    color:white;
+    border: none;
+    border-radius: 2px;
+}
+#footer .search a{
+    color: white;
+}
+#footer .search a:hover{
+    background-color: white;
+    color: #566bb5;
+}
+#footer .search button:hover{
+    cursor: pointer;
+    color:#566bb5 ;
+    background-color: white;
+}
+
