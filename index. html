@@ -1,0 +1,122 @@
+<html>
+
+   <head>
+      <meta charset="utf-8">
+      <link href="../css/Style.css" rel="stylesheet" type="text/css">
+      <link href="../css/font-awesome.min.css" rel="stylesheet">
+      <title>Furniture Website</title>
+   </head>
+
+   <body>
+
+      <div id="container">
+         <!--start div logo-->
+         <div id="logo">
+            <img src="https://i.imgur.com/kCCYKLa.png">
+            <div class="search">
+               <p>Search</p><input type="text" placeholder="search here">
+               <div class="icon">
+                  <i class="fa fa-search" aria-hidden="true"><a href="index.html" target="_blank"></a></i>
+               </div>
+            </div>
+         </div>
+         <!--end div logo-->
+
+         <!--start div nav-->
+         <div id="nav">
+            <ul>
+               <li>Indoor Furniture</li>
+               <li>Outdoor Furniture</li>
+               <li>Office Furniture</li>
+            </ul>
+         </div>
+         <!--end div nav-->
+
+         <!--start div images-->
+         <div id="images1"><img src="https://i.imgur.com/AqDCJgo.jpg" width="960px"></div>
+         <div id=images2><img src="https://i.imgur.com/OucKZ0V.jpg" width="930px"></div>
+         <!--end div images-->
+
+         <!--start div room-->
+         <div id="rooms">
+            <div class="room">
+               <img src="https://i.imgur.com/okWNZxm.jpg" width="300" height="200">
+               <h1>Dining Rooms</h1>
+               <p>Elevate dining experiences with our stylish and functional dining room set. Designed for shared meals.</p>
+               <button><a href="index.html" target="_blank">BUY NOW</a></button>
+            </div>
+
+            <div class="room">
+               <img src="https://i.imgur.com/K0OLgly.jpg" width="300" height="200">
+               <h1>Living Rooms</h1>
+               <p>Elevate your living room with our luxurious centerpiece. Experience comfort, style, and smart functionality.</p>
+               <button><a href="index.html" target="_blank">BUY NOW</a></button>
+            </div>
+
+            <div class="room">
+               <img src="https://i.imgur.com/sbRJ5v3.jpg" width="300" height="200">
+               <h1>Bed Rooms</h1>
+               <p> serene havens for rest and relaxation. Transform your space into a cozy sanctuary. </p>
+               <button><a href="index.html" target="_blank">BUY NOW</a></button>
+            </div>
+
+            <div class="room">
+               <img src="https://i.imgur.com/NdW1E1m.jpg" width="300" height="200">
+               <h1>Gardens</h1>
+               <p>A garden is a space for cultivating plants, offering relaxation and connection with nature. </p>
+               <button><a href="index.html" target="_blank">BUY NOW</a></button>
+            </div>
+
+            <div class="room">
+               <img src="https://i.imgur.com/tUrg2zB.jpg" width="300" height="200">
+               <h1>Outdoors</h1>
+               <p> A realm of adventure, nature, and freedom. Experience the beauty, serenity, and endless possibilities it offers.</p>
+               <button><a href="index.html" target="_blank">BUY NOW</a></button>
+            </div>
+
+            <div class="room">
+               <img src="https://i.imgur.com/xPxsF0C.jpg" width="300" height="200">
+               <h1>Office</h1>
+               <p>This is a dedicated space within a building for administrative or professional work. </p>
+               <button><a href="index.html" target="_blank">BUY NOW</a></button>
+            </div>
+         </div>
+         <!--end div rooms-->
+
+         <!--start div footer-->
+         <div id="footer">
+            <div class="lists">
+               <h3>Contact Info</h3>
+               <p>25st. Maadi Building</p>
+               <p>No. 33Cairo, Egypt.</p>
+               <p>+20 2568 2548</p>
+            </div>
+
+            <div class="lists">
+               <h3>Showrooms</h3>
+               <p>Maadi</p>
+               <p>Nasr City</p>
+               <p>6 of October City</p>
+            </div>
+
+            <div class="lists">
+               <ul>
+                  <li>About Us</li>
+                  <li>Srevice</li>
+                  <li>Customer Care</li>
+                  <li>Special Orders</li>
+               </ul>
+            </div>
+
+            <div class="search">
+               <p>Search</p><input type="text" placeholder="search here">
+               <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+               <button><a href="https://www.facebook.com/zuck" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> Like</button>
+            </div>
+
+         </div>
+      </div>
+      <script src="https://use.fontawesome.com/e2b9180c92.js"></script>
+   </body>
+
+</html>
